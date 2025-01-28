@@ -1,5 +1,9 @@
 # Zen Changelog
 
+## [Fix Error: Zen Browser browser is not installed] - 2025-01-29
+
+- Fix new tab command, by removing unnecessary app check.
+
 ## [Fix New Tab] - 2025-01-11
 
 - Fix new tab command, by removing unnecessary app check.

@@ -1,6 +1,13 @@
 # Zen Changelog
 
-## [Fix Error: Zen Browser browser is not installed] - 2025-01-29
+## [Fix Profile Detection] - {PR_MERGE_DATE}
+
+- Fixed "Zen Browser not installed" error by improving profile detection
+- Added support for ".Default (release)" profile pattern
+- Added fallback to use any available profile if no default profile is found
+- Maintained backward compatibility with custom and alpha profiles
+
+## [Fix Error: Zen Browser browser is not installed] - {PR_MERGE_DATE}
 
 - Fix new tab command, by removing unnecessary app check.
 
